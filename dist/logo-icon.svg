@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Vibrant lime-green to cyan gradient matching SmartWord logo -->
+    <linearGradient id="swRibbonGrad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#9AD823" />
+      <stop offset="35%" stop-color="#65C252" />
+      <stop offset="70%" stop-color="#22A497" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="swTopWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2E02A" />
+      <stop offset="100%" stop-color="#55BC6D" />
+    </linearGradient>
+    <linearGradient id="swBotWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22A497" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top loop of the stylized S -->
+  <path
+    d="M245 42 C 345 42, 420 105, 420 190 L 420 220 C 420 238, 405 252, 388 252 L 270 252 C 205 252, 155 210, 155 150 C 155 90, 195 42, 245 42 Z"
+    fill="url(#swTopWingGrad)"
+  />
+
+  <!-- Angled diagonal cross ribbon -->
+  <path
+    d="M75 220 L 415 320 L 375 390 L 45 285 Z"
+    fill="url(#swRibbonGrad)"
+  />
+
+  <!-- Bottom loop of the stylized S -->
+  <path
+    d="M267 470 C 167 470, 92 407, 92 322 L 92 292 C 92 274, 107 260, 124 260 L 242 260 C 307 260, 357 302, 357 362 C 357 422, 317 470, 267 470 Z"
+    fill="url(#swBotWingGrad)"
+  />
+</svg>
